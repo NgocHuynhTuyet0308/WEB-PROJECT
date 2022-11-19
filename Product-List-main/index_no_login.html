@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Product list</title>
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/base.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;700&family=Inconsolata:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;700&family=Inconsolata:wght@200;300;400;500;700&family=Marcellus&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./fonts/fontawesome-free-6.2.0-web/css/all.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="main">
+            <div class="header js-header">
+                <div class="grid wide">
+                    <div class="header__navbar">
+                          <div class="header__navbar-item-img">
+                                    <img src="/Product-List-main/img/logo.png" alt="" class="header-item-img">
+                         </div>
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-list-item">
+                                <a href="/Web-index/index_login_success.html" class="header__navbar-item-link">Home</a>
+                                </li>
+                            <li class="header__navbar-list-item">
+                                <a href="/About-us-main/index_aboutus.html" class="header__navbar-item-link">About Us</a>
+                                </li>
+                            <li class="header__navbar-list-item">
+                                <a href="#section_id" class="header__navbar-item-link">Services</a>
+                                </li>
+                            <li class="header__navbar-list-item">
+                                <a href="/Ritual-Coffee_-Gallery-main/index_gallery.html" class="header__navbar-item-link"> Gallery</a>
+                               </li>
+                            <li class="header__navbar-list-item">
+                                <a href="/Project/html/blog_detail1.html" class="header__navbar-item-link">Blogs</a>
+                                </li>
+                            <li class="header__navbar-list-item">
+                                <a href="/Project/html/Contact_Us.html" class="header__navbar-item-link">Contact Us</a>
+                                </li>
+                            <li class="header__navbar-list-item">
+                                <a href="/Product-List-main/index_productList.html" class="header__navbar-item-link">Products</a>
+                                </li>
+                            <li class="header__navbar-list-item login">
+                                <a href="/Web-index/login.html" class="header__navbar-item-link">Login</a>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="body">
+                <div class="body__slider">
+                    <img src="./img/about-us-slider.jpg" alt="Slider image" class="body__slider-img">
+                    <div class="slider__text-content">
+                        <h1 class="slider__text-heading">Product list</h1>
+                        
+                    </div>
+                </div>
+                <div class="container-fluid body__productList">
+                    <div class="row">
+                <div class=" col-lg-9 padding-150px">
+                            <div class="row main-content">
+                            <div class="body__product col-lg-4" data-aos="fade-up" >
+                            <div class="body__product-img-content">
+                                <img src="./img/productList-img-1.png" alt="Product image" class="body__product-img">
+                                <div class="body__product-img--modal">
+                                    <a class="body__product-img--modal-link"  >
+                                        <div class="body__product-button--modal Btn-modal" onclick="blockModal()">
+                                            <h2 class="body__product-button-text--modal">Add to cart</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+            
+                            <div class="body__product-text"> 
+                                <h2 class="body__product-name">Ethiopia Coffee</h2>
+                                <h3 class="body__product-price">$15.99</h3>
+                            </div>
+                        </div>
+                        <div class="body__product col-lg-4" data-aos="fade-up" >
+                            <div class="body__product-img-content">
+                                <img src="./img/productList-img-21.png" alt="Product image" class="body__product-img">
+                                <div class="body__product-img--modal">
+                                    <a  class="body__product-img--modal-link">
+                                        <div class="body__product-button--modal Btn-modal" onclick="blockModal()">
+                                            <h2 class="body__product-button-text--modal">Add to cart</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="body__product-text"> 
+                                <h2 class="body__product-name">French Press</h2>
+                                <h3 class="body__product-price">$23.99</h3>
+                            </div>
+                        </div>
+                        <div class="body__product col-lg-4" data-aos="fade-up" >
+                            <div class="body__product-img-content">
+                                <img src="./img/productList-img-3.png" alt="Product image" class="body__product-img">
+                                <div class="body__product-img--modal">
+                                    <a  class="body__product-img--modal-link">
+                                        <div class="body__product-button--modal Btn-modal" onclick="blockModal()">
+                                            <h2 class="body__product-button-text--modal">Add to cart</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="body__product-text"> 
+                                <h2 class="body__product-name">Kenya Coffee</h2>
+                                <h3 class="body__product-price">$18.00</h3>
+                            </div>
+                        </div>
+                        
+                 
+                        <div class="body__product col-lg-4" data-aos="fade-up" >
+                            <div class="body__product-img-content">
+                                <img src="./img/backgroundCopy_1.png" alt="Product image" class="body__product-img ">
+                                <div class="body__product-img--modal">
+                                    <a class="body__product-img--modal-link">
+                                        <div class="body__product-button--modal Btn-modal" onclick="blockModal()">
+                                            <h2 class="body__product-button-text--modal">Add to cart</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="body__product-text"> 
+                                <h2 class="body__product-name">Dolce Gusto</h2>
+                                <h3 class="body__product-price">$12.00</h3>
+                            </div>
+                        </div>
+                        <div class="body__product col-lg-4" data-aos="fade-up" >
+                            <div class="body__product-img-content">
+                                <img src="./img/productList-img-5.png" alt="Product image" class="body__product-img">
+                               <div class="body__product-img--modal">
+                                    <a class="body__product-img--modal-link">
+                                        <div class="body__product-button--modal Btn-modal" onclick="blockModal()">
+                                            <h2 class="body__product-button-text--modal">Add to cart</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="body__product-text"> 
+                                <h2 class="body__product-name">Columbia Coffee</h2>
+                                <h3 class="body__product-price">$21.00</h3>
+                            </div>
+                        </div>
+                        <div class="body__product col-lg-4" data-aos="fade-up" >
+                            <div class="body__product-img-content">
+                                <img src="./img/ProductList-img-6.png" alt="Product image" class="body__product-img body__product-img--padding">
+                                <div class="body__product-img--modal">
+                                    <a class="body__product-img--modal-link">
+                                        <div class="body__product-button--modal Btn-modal" onclick="blockModal()">
+                                            <h2 class="body__product-button-text--modal">Add to cart</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="body__product-text"> 
+                                <h2 class="body__product-name">Coffee Kettle</h2>
+                                <h3 class="body__product-price">$90.00</h3>
+                            </div>
+                        </div>
+                        <div class="body__product col-lg-4" data-aos="fade-up" >
+                            <div class="body__product-img-content">
+                                <img src="./img/ProductList-img-7.png" alt="Product image" class="body__product-img body__product-img--padding">
+                                <div class="body__product-img--modal">
+                                    <a class="body__product-img--modal-link">
+                                        <div class="body__product-button--modal Btn-modal" onclick="blockModal()">
+                                            <h2 class="body__product-button-text--modal">Add to cart</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="body__product-text"> 
+                                <h2 class="body__product-name">Espresso Machine</h2>
+                                <h3 class="body__product-price">$600.00</h3>
+                            </div>
+                        </div>
+                        <div class="body__product col-lg-4" data-aos="fade-up" >
+                            <div class="body__product-img-content">
+                                <img src="./img/product-img-8.png" alt="Product image" class="body__product-img body__product-img--padding">
+                                <div class="body__product-img--modal">
+                                    <a class="body__product-img--modal-link">
+                                        <div class="body__product-button--modal Btn-modal" onclick="blockModal()">
+                                            <h2 class="body__product-button-text--modal">Add to cart</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="body__product-text"> 
+                                <h2 class="body__product-name">Guatemala Coffee</h2>
+                                <h3 class="body__product-price">$25.00</h3>
+                            </div>
+                        </div>
+                        <div class="body__product col-lg-4" data-aos="fade-up" >
+                            <div class="body__product-img-content">
+                                <img src="./img/ProductList-img-9.png" alt="Product image" class="body__product-img body__product-img--padding">
+                                <div class="body__product-img--modal">
+                                    <a class="body__product-img--modal-link">
+                                        <div class="body__product-button--modal Btn-modal" onclick="blockModal()">
+                                            <h2 class="body__product-button-text--modal">Add to cart</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="body__product-text"> 
+                                <h2 class="body__product-name">Filter handle</h2>
+                                <h3 class="body__product-price">$80.00</h3>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="body__sidebar-holder  col-lg-3 padding-150px">
+                    <div class="body__sidebar-container">
+                        <div class="input-search">
+                           
+                            <div class="search-container">
+                                <input class="search__input" type="text" placeholder="Search">
+                                
+                            </div>
+                        </div>
+                        <div class="widget-filter">
+                            <div class="form_option">
+                                <form action="" class="option_price">
+                                    <div class="filter-price-checkbox">
+                                        <div class="squaredcheck">
+                                            <input type="radio" value="1" id="squaredcheck" class="checkbox" name="check" checked />
+                                            <label for="squaredcheck"><span class="squaredcheck-price">0 - 50$</span></label>
+                                        </div>
+                                        <div class="squaredcheck">
+                                            <input type="radio" value="2" id="squaredcheck" class="checkbox" name="check" checked />
+                                            <label for="squaredcheck"><span class="squaredcheck-price">51 - 100$</span></label>
+                                        </div>
+                                        <div class="squaredcheck">
+                                            <input type="radio" value="3" id="squaredcheck" class="checkbox" name="check" checked />
+                                            <label for="squaredcheck"><span class="squaredcheck-price">Over 100$</span></label>
+                                        </div>
+                                    </div>
+                                </form>
+                                <form action="" class="option_types">
+                                    <div class="filter-price-checkbox">
+                                        <div class="squaredcheck">
+                                            <input type="radio" value="1" id="squaredcheck" class="phanloai" name="check" checked />
+                                            <label for="squaredcheck"><span class="squaredcheck-price">Black</span></label>
+                                        </div>
+                                        <div class="squaredcheck">
+                                            <input type="radio" value="2" id="squaredcheck" class="phanloai" name="check" checked />
+                                            <label for="squaredcheck"><span class="squaredcheck-price">Latte</span></label>
+                                        </div>
+                                        <div class="squaredcheck">
+                                            <input type="radio" value="3" id="squaredcheck" class="phanloai" name="check" checked />
+                                            <label for="squaredcheck"><span class="squaredcheck-price">Cappucino</span></label>
+                                        </div>
+                                        <div class="squaredcheck">
+                                            <input type="radio" value="3" id="squaredcheck" class="phanloai" name="check" checked />
+                                            <label for="squaredcheck"><span class="squaredcheck-price">Americano</span></label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                                <div class="price-filter-link">
+                                    <button class="price-filter">
+                                        <span class="price-filter-text">Filter</span>
+                                    </button>
+                                    <button class="clear-button" onclick="ClearOption(option,option_product)">
+                                        <span class="clear-option">Clear</span>
+                                    </button>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="product-category">
+                            <div class="widget">
+                                <div class="widget-title-holder">
+                                    <h2 class="widget-title">product category</h2>
+                                </div>
+                                <ul class="product-category-list">
+                                    <li class="product-category-item" onclick=" RenderFirstAccessories()">Accessories</li>
+                                    <li class="product-category-item" onclick="RenderFirstBeanVarieties()">Bean Varieties</li>
+                                    <li class="product-category-item" onclick="RenderFirstCoffeeCups()">Coffee Cups</li>
+                                    <li class="product-category-item" onclick="RenderFirstEspressoMachine()">Espresso Machine</li>
+                                    <li class="product-category-item" onclick="RenderFirstFreshCoffee()">Fresh Coffee</li>
+                                    <li class="product-category-item" onclick="RenderFirstItalianCoffee()">Italian Coffee</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="product-tag">
+                            <div class="widget">
+                                <div class="widget-title-holder">
+                                    <h2 class="widget-title">product tags</h2>
+                                </div>
+                                <ul class="product-tag-list">
+                                    <span class="product-tag-item" onclick="RenderFirstAroma()">Aroma,</span>
+                                    <span class="product-tag-item" onclick="RenderFirstBeans()">Beans,</span>
+                                    <span class="product-tag-item" onclick="RenderFirstBlack()">Black,</span>
+                                    <span class="product-tag-item" onclick="RenderFirstCasual()">Casual,</span>
+                                    <span class="product-tag-item" onclick="RenderFirstClassic()">Classic,</span>
+                                    <span class="product-tag-item" onclick="RenderFirstCream()">Cream,</span>
+                                    <span class="product-tag-item" onclick="RenderFirstElegant()">Elegant,</span>
+                                    <span class="product-tag-item" onclick="RenderFirstFresh()">Fresh</span>
+                                </ul>
+                        </div>
+                    </div>
+
+                    <div class="top-rated-product">
+                        <div class="widget">
+                            <div class="widget-title-holder">
+                                <h2 class="widget-title">Top rated products</h2>
+                            </div>
+                            <ul class="top-rated-product-list">
+                                <li class="top-rated-product-item">
+                                    <img src="./img/productList-img-5.png" alt="Top rated product" class="top-rated-product-item-img">
+                                    <div class="top-rated-product-item-info">
+                                        <span class="top-rated-product-item-heading">Columbia Coffee</span> <br>
+                                        <div class="top-rated-product-item-star-icon">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+
+                                        <span class="top-rated-product-item-price">$21.00</span>
+                                    </div>
+                                </li>
+                                <li class="top-rated-product-item">
+                                    <img src="./img/backgroundCopy_1.png" alt="Top rated product" class="top-rated-product-item-img">
+                                    <div class="top-rated-product-item-info">
+                                        <span class="top-rated-product-item-heading">Dolce Gusto</span> <br>
+                                        <div class="top-rated-product-item-star-icon">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+
+                                        <span class="top-rated-product-item-price">$12.00</span>
+                                    </div>
+                                </li>
+                                <li class="top-rated-product-item">
+                                    <img src="./img/productList-img-1.png" alt="Top rated product" class="top-rated-product-item-img">
+                                    <div class="top-rated-product-item-info">
+                                        <span class="top-rated-product-item-heading">Ethopia Coffee</span> <br>
+                                        <div class="top-rated-product-item-star-icon">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+
+                                        <span class="top-rated-product-item-price">$21.00</span>
+                                    </div>
+                                </li>
+                            </ul>
+                    </div>
+                    </div>
+                    <div class="body__product-offer">
+                        <a href="./html/Product_Offer.html" class="body__product-offer-link">
+                            <div class="body__product-offer-container">
+                                <img src="./img/shop-sidebar-img-1-550x550.jpg" alt="Product offer" class="body__product-offer-img">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                </div>
+                <div class="body__page-number col-lg-12">
+                    <div class="body__page-number-container">
+                        <nav class="body__page-number-nav">
+                            <ul class="body__page-number-list">
+                                <li class="body__page-number-item">
+                                    <a href="" class="body__page-number-link body__page-number--curent-color">1</a>
+                                </li>
+                                <li class="body__page-number-item">
+                                    <a href="./html/Page2_ProductList.html" class="body__page-number-link">2</a>
+                                </li>
+                                <li class="body__page-number-item">
+                                    <a href="./html/Page2_ProductList.html" class="body__page-number-link">
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+                    
+                </div>
+
+            <div id="footer">
+                <div class="footer__container">
+                    <div class="footer__border">
+                            <div class="footer__logo-text cols-3">
+                                <a href="" class="footer__logo-text-link">
+                                    <img src="./img/logo.png" alt="Footer logo" class="footer__logo-text-img">
+                                </a>
+                                <p>I use Lorem ipsum text all day long and spend hours formatting it, so I set this site up to make my day a little easier.</p>
+                            </div>
+                            
+                            <div class="footer__menu">
+                                <div class="footer__toggle-menu cols-3">
+                                    <h2 class="footer__toggle-menu-head">Quick links</h2>
+                                    <ul class="list-unstyled list-hover">
+                                        <li class="item-unstyled list-hover item-unstyled-home" ><a href=""><i class="fa-solid fa-caret-right"></i>Home</a></li>
+                                        <li class="item-unstyled list-hover item-unstyled-AboutUs"><a href=""><i class="fa-solid fa-caret-right"></i>About us</a></li>
+                                        <li class="item-unstyled list-hover item-unstyled-service"><a href=""><i class="fa-solid fa-caret-right"></i>Services</a></li>
+                                        <li class="item-unstyled list-hover item-unstyled-gallery"><a href=""><i class="fa-solid fa-caret-right"></i>Gallery</a></li>
+                                        <li class="item-unstyled list-hover item-unstyled-blog"><a href=""><i class="fa-solid fa-caret-right"></i>Blog</a></li>
+                                        <li class="item-unstyled list-hover item-unstyled-contactus"><a href=""><i class="fa-solid fa-caret-right"></i>Contact us</a></li>
+                                    </ul>
+                                </div>
+                                <div class="footer__toggle-menu cols-3">
+                                    <h2 class="footer__toggle-menu-head">Contact us</h2>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <div class="footer__content-section">
+                                                <div class="footer__content-section-icon">
+                                                    <i class="fa-solid fa-location-dot"></i>
+                                                </div>
+                                                <div class="footer__content-text">
+                                                    <h3>Location :</h3>
+                                                    <p>A20 Green Hill Road, <br> Fayetteville,California</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="footer__content-section">
+                                                <div class="footer__content-section-icon">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="footer__content-text">
+                                                    <h3>Phone :</h3>
+                                                    <a href="tel:+120922326350">+1 209-223-2635</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="footer__content-section">
+                                                <div class="footer__content-section-icon">
+                                                    <i class="fa-solid fa-envelope"></i>
+                                                </div>
+                                                <div class="footer__content-text">
+                                                    <h3>Email :</h3>
+                                                    <a href="mailto:info@ritualcoffee.com">info@ritualcoffee.com</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer__toggle-menu cols-3 footer__toggle-instagram">
+                                    <h2 class="footer__toggle-menu-head">Instagram</h2>
+                                        <ul class="list-unstyled grid-container-footer-insta">
+
+                                            <li class="footer__instagram-img-container">
+                                                <img src="./img/tb-footer-instagram-img-01.jpg" alt="Footer Instagram" class="footer__instagram-img">
+                                                <div class="img-modal">
+                                                    <a href="#">
+                                                        <i class="fa-brands fa-instagram social-icon"></i>
+                                                    </a>
+
+                                                </div>
+                                            </li>
+            
+                                            <li class="footer__instagram-img-container">
+                                                <img src="./img/tb-footer-instagram-img-02.jpg" alt="Footer Instagram" class="footer__instagram-img">
+                                                <div class="img-modal">
+                                                    <a href="#">
+                                                        <i class="fa-brands fa-instagram social-icon"></i>
+                                                    </a>
+
+                                                </div>
+                                            </li>
+                                            <li class="footer__instagram-img-container">
+                                                <img src="./img/tb-footer-instagram-img-03.jpg" alt="Footer Instagram" class="footer__instagram-img">
+                                                <div class="img-modal">
+                                                    <a href="#">
+                                                        <i class="fa-brands fa-instagram social-icon"></i>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="footer__instagram-img-container">
+                                                <img src="./img/tb-footer-instagram-img-04.jpg" alt="Footer Instagram" class="footer__instagram-img">
+                                                <div class="img-modal">
+                                                    <a href="#">
+                                                        <i class="fa-brands fa-instagram social-icon"></i>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="footer__instagram-img-container">
+                                                <img src="./img/tb-footer-instagram-img-05.jpg" alt="Footer Instagram" class="footer__instagram-img">
+                                                <div class="img-modal">
+                                                    <a href="#">
+                                                        <i class="fa-brands fa-instagram social-icon"></i>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="footer__instagram-img-container">
+                                                <img src="./img/tb-footer-instagram-img-06.jpg" alt="Footer Instagram" class="footer__instagram-img">
+                                                <div class="img-modal">
+                                                    <a href="#">
+                                                        <i class="fa-brands fa-instagram social-icon"></i>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                            
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="footer__sub-container">
+                    <div class="footer_copyright">
+                        <p>Copyright © 2022 <a href="#URL" class="footer__copyright-hover">Ritual coffee</a>. All Rights Reserved.</p>
+                    </div>
+                    <div class="footer__social-icon">
+                        <ul class="footer__social-icon-list">
+                            <li class="footer__social-icon-item list-hover">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f social-icon"></i>
+                                </a>
+                            </li>
+                            <li class="footer__social-icon-item list-hover">
+                                <a href="">
+                                    <i class="fa-brands fa-twitter social-icon"></i>
+                                </a>
+                            </li>
+                            <li class="footer__social-icon-item list-hover">
+                                <a href="">
+                                    <i class="fa-brands fa-skype social-icon"></i>
+                                </a>
+                            </li>
+                            <li class="footer__social-icon-item list-hover">
+                                <a href="">
+                                    <i class="fa-brands fa-instagram social-icon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-login">
+                <div class="required">
+                  <p class="header-login">You must login before making a purchase</p> 
+                   <div class="btn-option">
+                    <a href="/Web-index/login.html">
+                        <button class="btn-yes">
+                            Yes
+                        </button>
+                    </a> 
+                    <button class="btn-no js-close" onclick="closeModal()">
+                       Cancel
+                    </button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            // when scroll, header will change
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+            document.querySelector('.header').style.top = "0";
+            document.querySelector('.header').classList.add('thaydoiheader');
+            } else {
+            document.querySelector('.header').style.top = "-96px";
+            }
+            if(currentScrollPos == 0)
+            {
+                document.querySelector('.header').classList.remove('thaydoiheader');
+            }
+            prevScrollpos = currentScrollPos;
+            }
+            AOS.init();
+        </script>
+        <script src="./css/search_no_login.js"></script>
+        <script src="./css/Category.js"></script>
+        <script src="./css/Tags.js"></script>
+        <script src="/Web-index/css/createLink.js"></script>
+        <script src="/Web-index/css/createLink.js"></script>
+
+    </body>
+</html>
